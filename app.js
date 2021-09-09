@@ -1,12 +1,11 @@
-const player = {
-  name: "nico",
-  points: 10,
-  fat: true,
-};
+function sayHello(nameOfPerson, age) {
+    console.log("Hello my name is " + nameOfPerson + "and I'm ", age);
+}
 
-console.log(player);
-player.points = 15; // can change variable in object
-console.log(player);
-player.points = player.points + 15;
-player.lastName = "potato"; // can add variable in object
-console.log(player);
+sayHello("nico", 10);
+sayHello("dal", 23);
+sayHello("lynn", 21);
+
+
+
+
