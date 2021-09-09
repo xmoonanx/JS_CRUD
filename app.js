@@ -1,9 +1,12 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+const player = {
+  name: "nico",
+  points: 10,
+  fat: true,
+};
 
-//Get Item form Array
-console.log(daysOfWeek);
-
-//Add one more day to the array
-daysOfWeek.push("sun");
-
-console.log(daysOfWeek);
+console.log(player);
+player.points = 15; // can change variable in object
+console.log(player);
+player.points = player.points + 15;
+player.lastName = "potato"; // can add variable in object
+console.log(player);
