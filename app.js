@@ -1,15 +1,9 @@
-const a= 5; //const : constant -> cant update Variable Data.
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 
-let myName = "WJ"; // let : can update Variable Data.
+//Get Item form Array
+console.log(daysOfWeek);
 
-var b = 5; //var : variable : past Variable type, can Update Data, but not protect Data. So recommand use const, let.
+//Add one more day to the array
+daysOfWeek.push("sun");
 
-console.log( a + 1);
-console.log(b+2);
-console.log("My name is " + myName);
-
-myName = "WooJin";
-console.log("My name is " + myName);
-b = 2;
-console.log(b+2);
-
+console.log(daysOfWeek);
